@@ -1,0 +1,8 @@
+@media screen and (max-width:930px) {
+    #body{
+        width: 100%;
+    }
+    #sideBar{
+        width: 100%;
+    }
+}

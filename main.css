@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Fi{
+    height: 120px;
+    float: left;  /*Just for positining (already inline cause imgs ) margin vertical not working*/
+}
+
+.Se{
+    height: 80px;
+    float: right; /*Just for positining*/
+    margin-top: 16px;
+    margin-right: 25px;
+}
+
+.clear{
+    clear: both;
+}
+
+#myheader{
+    /*background-color: royalblue; *//*Will not be shown if float in imgs so we need to make div height*/
+    height: 122px;
+    background-image: url('../images/rdr/bg.jpg');
+    background-position: bottom right;
+}
+
+#nav{
+    background-color: #9d0208;
+}
+
+ul{
+    /**/
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    /**/
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+li{
+    display: inline-block;
+    padding: 5px 16px; /*padding to li */
+}
+
+/*padding to link propreties*/
+#nav a{
+    padding: 5px 4px; /*5px just to vertical link bg but 4px is to horizontal link bg and also horizontal li so for li horizantal 4+16 */
+}
+
+#nav a:link,#nav a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#nav a:hover,#nav a:active{
+    background-color: #6a040f;
+    color: #ffba08;
+}
+
+h2 a:link,h2 a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
+h2 a:hover,h2 a:active{
+    color: #ffba08;
+}
+
+#body{
+    background-color: #6a040f;
+    margin: 0 auto;
+    width: 84%;
+    height: 100%;
+    float: left;
+}
+
+.center{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.demension{
+    height: 250px;
+    width: 100%; /*From 25% of 90% of body*/
+}
+
+
+#FirstImg{
+    float: left;
+    width: 25%; /*4 Divs * 25% = 100% of div.center*/
+    text-align: center;
+}
+
+#SecondImg{
+    float: left;
+    width: 25%; /*4 Divs * 25% = 100% of div.center*/
+    text-align: center;
+}
+
+#ThirdImg{
+    float: left;
+    width: 25%; /*4 Divs * 25% = 100% of div.center*/
+    text-align: center;
+}
+
+#ForthImg{
+    float: left;
+    width: 25%; /*4 Divs * 25% = 100% of div.center*/
+    text-align: center;
+}
+
+.textstyle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #edf2f4;
+    padding-top: 8px;
+}
+
+#body p{
+    padding: 25px;
+    color: #95d5b2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+
+#sideBar{
+    width: 16%;
+    background-image: url(../images/rdr/bgsidebar.jpg);
+    float: left;
+}
+
+#sideBar h1{
+    text-align: center;
+    font-size: 230%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: green;
+}
+
+#sideBar p{
+    font-size: 120%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(19, 10, 150);
+    padding: 3px;
+}
+
+#myFooter{
+    text-align: center;
+    background-color: #9d0208;
+    color: white;
+    padding: 3px;
+    font-family: cursive;
+}

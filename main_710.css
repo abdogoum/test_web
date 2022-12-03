@@ -1,0 +1,19 @@
+@media screen and (max-width:710px) {
+    .Se{
+        display: none;
+    }
+
+    .Fi{
+        width: 100%;
+    }
+
+    #myheader div{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .center{
+        width: 86%;
+        margin: 0 auto;
+    }
+}

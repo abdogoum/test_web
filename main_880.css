@@ -1,0 +1,29 @@
+@media screen and (max-width:880px) {
+    .center{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+
+    #FirstImg{
+        width: 50%;
+    }
+    
+    #SecondImg{
+        width: 50%;
+    }
+    
+    #ThirdImg{
+        width: 50%;
+    }
+    
+    #ForthImg{
+        width: 50%;
+    }
+    .firstTwo{
+        width: 100%;
+    }
+    .secondTwo{
+        width: 100%;
+    }
+}
